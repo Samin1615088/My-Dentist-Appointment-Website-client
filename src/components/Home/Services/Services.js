@@ -25,8 +25,8 @@ const Services = () => {
     return (
         <section className="container text-center d-flex flex-column justify-content-center vh-100">
             <div className="mb-auto">
-                <h5 className="fw-bold my-5" style={{ color: '#1CC7C1' }}>Our Services</h5>
-                <h1 className="fw-bold mb-3 mb-lg-5" style={{ color: '#3a4256' }}>Services We Provide</h1>
+                <h5 className="fw-bold mt-5 mb-4 display-6" style={{ color: '#1CC7C1' }}>Our Services</h5>
+                <h1 className="fw-bold mb-3 mb-lg-5 display-3" style={{ color: '#3a4256' }}>Services We Provide</h1>
             </div>
             <div className="h-100 d-flex flex-column justify-content-center">
                 <div className="row">
