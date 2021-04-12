@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from '../Header/Header';
+import HeaderMain from '../HeaderMain.js/HeaderMain';
 
-const Home = () => {
+const Home = () => { 
     return (
-        <div>
-            <Header/>
+        <div className="vh-100">
+            <Header />
+            <HeaderMain />
         </div>
     );
 };
