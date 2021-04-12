@@ -6,11 +6,11 @@ import BusinessInfo from '../BusinessInfo/BusinessInfo';
 
 const Header = () => {
     return (
-        <div className="header-container">
+        <section className="header-container">
             <Navbar />
             <HeaderMain />
             <BusinessInfo />
-        </div>
+        </section>
     );
 };
 

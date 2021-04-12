@@ -25,7 +25,7 @@ const BusinessInfo = () => {
     ];
 
     return (
-        <section className="container mt-3">
+        <section className="container mb-5">
             <div className="row">
                 {
                     infosData.map(infoData => <InfoCard infoData={infoData} />)
