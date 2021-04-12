@@ -1,0 +1,15 @@
+.header-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.header-container::after {
+  height: 100vh;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 30%;
+  right: 0;
+  z-index: -50;
+  background: #3a4256;
+}
