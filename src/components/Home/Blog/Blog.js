@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = (props) => {
     const { title, description, author, authorImg, date } = props.blogData;
-    
+
     return (
         <div className="col-sm-12 col-md-3 offset-md-1">
             <div className="card h-100 text-start">
