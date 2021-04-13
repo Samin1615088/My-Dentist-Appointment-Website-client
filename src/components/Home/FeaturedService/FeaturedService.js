@@ -9,8 +9,8 @@ const FeaturedService = () => {
                     <img src={featuredImg} alt="" className="img-fluid" />
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-around">
-                    <div className="">
-                        <span className="h1 fw-bold ">Exceptional Dental</span>
+                    <div className="" style={{ color: '#3A4256' }}>
+                        <span className="h1 fw-bold " >Exceptional Dental</span>
                         <br />
                         <span className=" h1 fw-bold ">Care, on Your Terms</span>
                     </div>

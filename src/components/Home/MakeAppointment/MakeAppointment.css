@@ -23,6 +23,8 @@
   position: relative;
   height: 100%;
   background-position: center center;
+  background-color: rgba(36, 41, 73, .7); /* Tint color */
+  background-blend-mode: multiply;
 }
 
 /* .make-appointment-container::before {

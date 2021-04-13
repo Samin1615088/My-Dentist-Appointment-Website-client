@@ -11,12 +11,12 @@ const MakeAppointment = () => {
                         <img src={doctorImg} alt="" className="img-fluid" />
                     </div>
                     <div className="col-md-7 text-white py-5">
-                        <h5 className="text-uppercase text-primary">Appointment</h5>
+                        <h5 className="text-uppercase" style={{ color: '#19D3AE' }}>Appointment</h5>
                         <h1 className="my-4 display-5 fw-bold">Make an Appointment <br /> Today</h1>
                         <p>It is a long established fact that a reader will be distractedby the readable
                         content of a page when looking at its
                         </p>
-                        <button className="btn btn-primary">Learn More</button>
+                        <button className="btn btn-primary" style={{ backgroundColor: '#19D3AE' }}>Learn More</button>
                     </div>
                 </div>
             </div>
