@@ -2,7 +2,11 @@ import React from 'react';
 import Blog from '../Blog/Blog';
 import profile1 from './../../../images/profile1.png';
 import profile2 from './../../../images/profile2.png';
-import profile3 from './../../../images/profile3.png';
+import './Blogs.css';
+
+//fontAwesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 
 const blogsData = [
     {
@@ -37,35 +41,35 @@ const Blogs = () => {
             <div className="row mt-5">
                 {/* single card */}
                 <div className="col-sm-12 col-md-3 offset-md-1">
-                    <div className="card h-100 text-start">
+                    <div className="card h-100 text-start blog-container">
+
+                        {/* test code */}
                         <div className="card-body ">
                             <div className="container row align-items-center mt-5">
-                                <div className="col-4">
-                                    <img src={profile2} alt="" srcset="" className="img-fluid" />
-                                </div>
-                                <div className="col-8">
-                                    <span className="card-text text-uppercase fw-bold">Dr. Cudi</span>
+                                <div className="col-12">
+                                    <span className="card-text text-uppercase fw-bold">Rashed Kabir</span>
                                     <br />
-                                    <span className="card-text text-muted">23 April 2019</span>
+                                    <span className="card-text">22 Aug 2018</span>
                                 </div>
                             </div>
-
-                            <div className="my-5 ps-2">
-                                <h5 className="card-title fw-bold">2 times of brush in a day can Keep you healthy</h5>
-                                <p className="text-muted">It is a long established fact that by the readable content of a lot layout. The point </p>
+                            <div className="mt-5 ps-1">
+                                <h5 className="card-title">Check at least a doctor in a  year for your teeth</h5>
                             </div>
+                            <FontAwesomeIcon size="4x" icon={faLongArrowAltRight} style={{ margin: "20px" }} />
                         </div>
+                        {/* test code */}
+
                     </div>
                 </div>
                 {/* single card */}
-                {/* single card */}
+                {/* second and third card */}
                 {
                     blogsData.map(blogData => <Blog blogData={blogData} key={blogData.key} />)
                 }
-                {/* single card */}
+                {/* second and third card */}
             </div>
 
-        </section>
+        </section >
     );
 };
 

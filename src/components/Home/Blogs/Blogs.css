@@ -1,0 +1,17 @@
+.blog-container {
+  /* background-image: linear-gradient(
+    to right,
+    #19d3ae,
+    #0fcfec
+    );  */
+  color: #fff;
+
+  background-image: url("./../../../images/qutation_mark.png"),
+    linear-gradient(to right, #19d3ae, #0fcfec);
+  background-position: center, left top;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right center, 0;
+  background-size: 200px 200px, cover;
+  /* Tint color  */
+  background-blend-mode: multiply;
+}
