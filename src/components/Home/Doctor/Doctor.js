@@ -6,7 +6,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Doctor = () => {
     return (
-        <div className="col-12 col-md-4">
+        <div className="col-md-4">
             <div className="overflow-hidden  h-75">
                 <img src={doctorImg} alt="" className="img-fluid" />
             </div>
