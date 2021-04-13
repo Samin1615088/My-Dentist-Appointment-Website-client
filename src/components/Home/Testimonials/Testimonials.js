@@ -46,15 +46,13 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            {/* test code */}
-
+            {/* Testimonial card-group added */}
             <div className="card-group my-5 ">
                 {
                     testimonialsData.map( testimonialData => <Testimonial testimonialData={testimonialData} key={testimonialData.key}/>)
                 }
             </div>
 
-            {/* test code */}
 
         </section>
     );

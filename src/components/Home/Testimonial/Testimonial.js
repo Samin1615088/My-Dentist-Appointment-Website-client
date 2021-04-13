@@ -14,7 +14,6 @@ const Testimonial = ({testimonialData}) => {
                         <p className="card-text text-muted">{testimonialData.place}</p>
                     </div>
                 </div>
-
             </div>
         </div>
     );

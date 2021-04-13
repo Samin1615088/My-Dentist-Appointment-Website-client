@@ -35,12 +35,6 @@ const Services = () => {
                     }
                 </div>
             </div>
-
-            {/* <div class="d-flex align-items-end flex-column bd-highlight mb-3" style={{ height: "200px" }}>
-                <div class="p-2 bd-highlight">Flex item</div>
-                <div class="p-2 bd-highlight">Flex item</div>
-                <div class="mt-auto p-2 bd-highlight">Flex item</div>
-            </div> */}
         </section>
     );
 };
