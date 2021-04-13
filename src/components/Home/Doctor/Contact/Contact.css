@@ -1,0 +1,5 @@
+.contact-container {
+    background-image: url("./../../../../images/chair1bg.png");
+    background-color: rgba(32, 48, 71, 0.9);
+    background-blend-mode: multiply;
+  }
