@@ -12,6 +12,8 @@ const Appointment = () => {
         console.log(selectedDate);
     }
 
+    
+
     return (
         <div className="">
             <Navbar />

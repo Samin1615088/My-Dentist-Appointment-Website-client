@@ -49,15 +49,13 @@ const bookingsData = [
 
 
 const BookAppointment = ({ date }) => {
-
-
     return (
-        <section className="container">
-            <h2 className="text-center text-brand">Available Appointments on {date.toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</h2>
+        <section className="container" style={{marginTop: "100px"}}>
+            <h2 className="text-center text-brand ">Available Appointments on {date.toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</h2>
 
             <div className="row mt-5 g-5">
                 {
-                    bookingsData?.map((booking) => <BookingCard booking={booking} key={booking._id} />)
+                    bookingsData?.map((booking) => <BookingCard booking={booking} date={date} key={booking._id} />)
                 }
             </div>
         </section>
