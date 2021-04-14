@@ -1,10 +1,21 @@
 .btn-brand {
+  color: white;
   background-image: linear-gradient(75deg, #19d3ae, #0fcfec);
   border-color: transparent;
   text-transform: uppercase;
   font-weight: 600;
+  transition: 0.3s ease-out;
+}
+.btn-brand:hover {
+  background-image: none;
+  border: 1px solid #19d3ae;
+  color: #19d3ae;
+  font-weight: 900;
 }
 
 .text-brand {
-  color: #1cc7c1 !important;
+  color: #1cc7c1;
+}
+.text-brand-secondary {
+  color: #3a4256;
 }

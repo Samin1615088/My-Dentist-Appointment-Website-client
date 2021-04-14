@@ -1,7 +1,8 @@
 import React from 'react';
+import BookingCard from '../BookingCard/BookingCard';
 import './../../../App.css';
 
-const bookingData = [
+const bookingsData = [
     {
         _id: '5e8df50be6e8231764dc23de',
         id: 1,
@@ -51,8 +52,14 @@ const BookAppointment = ({ date }) => {
 
 
     return (
-        <section>
+        <section className="container">
             <h2 className="text-center text-brand">Available Appointments on {date.toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</h2>
+
+            <div className="row mt-5 g-5">
+                {
+                    bookingsData?.map((booking) => <BookingCard booking={booking} key={booking._id} />)
+                }
+            </div>
         </section>
     );
 };
