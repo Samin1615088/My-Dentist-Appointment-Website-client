@@ -52,7 +52,7 @@ const BookAppointment = ({ date }) => {
 
     return (
         <section>
-            <h2 className="text-center text-brand">Available Appointments on {date.toDateString()}</h2>
+            <h2 className="text-center text-brand">Available Appointments on {date.toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</h2>
         </section>
     );
 };
